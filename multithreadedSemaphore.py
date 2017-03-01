@@ -3,7 +3,7 @@ import time
 import threading
 from threading import Thread
 
-#replace myfunc with your own function
+#replace myfunc with your own function****
 def myfunc(i,pool_sema):
     with pool_sema:
         print("Sleeping 5 sec from thread %d \n" % i)    
